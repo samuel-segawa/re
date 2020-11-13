@@ -1,0 +1,139 @@
+{
+    "data": [
+        {
+            "name":"Stoicism",
+            "description":"Reduces the duration of all Stun effects by an additional 6%.",
+            "rarity":"<span class=\"blue\">Rare</span>"
+        },
+        {
+            "name":"Concussive Barrage",
+            "description":"Your successful Chimera Shot and Multi-Shot attacks have a 50% chance to Daze the target for 4 sec.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Concussive Barrage",
+            "description":"Your successful Chimera Shot and Multi-Shot attacks have a 100% chance to Daze the target for 4 sec.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Primal Precision",
+            "description":"Increases your expertise by 1, and you are refunded 20% of the energy cost of a finishing move if it fails to land.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Lava Flows",
+            "description":"Increases the critical strike damage bonus of your Lava Burst, Flame Shock, and Lava Lash spells by an additional 8%. This enchant does not stack.",
+            "rarity":"<span class=\"epic\">Epic</span>"
+        },
+        {
+            "name":"Primal Precision",
+            "description":"Increases your expertise by 2, and you are refunded 30% of the energy cost of a finishing move if it fails to land.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Storm, Earth and Fire",
+            "description":"Reduces the cooldown of your Chain Lightning spell by .33 sec, and the periodic damage done by your Flame Shock is increased by 10%.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Improved Barrage",
+            "description":"Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by 5% and reduces the pushback suffered from damaging attacks while channeling Volley by 66%.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Improved Barrage",
+            "description":"Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by 6% and reduces the pushback suffered from damaging attacks while channeling Volley by 100%.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Sanctity of Battle",
+            "description":"Increases the damage caused by Exorcism, Crusader Strike, Divine Storm, and Consecration by 4%.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Eternal Water",
+            "description":"Your Summon Water Elemental now lasts indefinitely, but your Water Elemental can no longer cast Freeze.",
+            "rarity":"<span class=\"lego\">Legendary</span>"
+        },
+        {
+            "name":"Masterful Slavery",
+            "description":"Increases the duration of your Enslave Demon spell by 10 minutes.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Arcane Shielding",
+            "description":"Decreases the mana lost per point of damage taken when Mana Shield is active by 8% and reduces spell damage taken by 1%.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Magic Attunement",
+            "description":"Increases the range of your Arcane mage spells by 2 yards and the effect of your Amplify Magic and Dampen Magic spells by 20%.  (This enchant does not stack).",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Improved Rake",
+            "description":"Increases the damage done by your Rake by 4%.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Improved Rake",
+            "description":"Increases the damage done by your Rake by 5%.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Improved Rake",
+            "description":"Increases the damage done by your Rake by 6%.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Masterful Slavery",
+            "description":"Increases the duration of your Enslave Demon spell by 15 minutes.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Empowering Smite",
+            "description":"Your successful Smite casts Increases all healing done by 2% and reduces the mana cost of your smite by 5%. Stacks 5 times.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Elemental Reach",
+            "description":"Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 1 yards, increases the radius of your Thunderstorm spell by 5%, and increases the range of your Flame Shock by 1 yards. (This enchant does not stack).",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Master Conjuror",
+            "description":"Increases the combat ratings gained from your conjured Firestone and Spellstone by 25%.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Master Conjuror",
+            "description":"Increases the combat ratings gained from your conjured Firestone and Spellstone by 30%.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Improved Stormstrike",
+            "description":"When you Stormstrike, you have a 50% chance to immediately grant you 15% of your base mana. This enchant does not stack.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Infusion of Light",
+            "description":"Your Holy Shock critical hits reduce the cast time of your next Flash of Light by 0.75 sec or increase the critical chance of your next Holy Light by 10%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional 50% over 12 sec.",
+            "rarity":"<span class=\"common\">Common</span>"
+        },
+        {
+            "name":"Unholy Power",
+            "description":"Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 9%.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        },
+        {
+            "name":"Shamanistic Focus",
+            "description":"Reduces the mana cost of your Shaman Shock spells by 20%. This enchant does not stack.",
+            "rarity":"<span class=\"uncommon\">Uncommon</span>"
+        },
+        {
+            "name":"Masterful Slavery",
+            "description":"Increases the duration of your Enslave Demon spell by 33 minutes.",
+            "rarity":"<span class=\"rare\">Rare</span>"
+        }
+    ]
+}

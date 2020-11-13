@@ -1,0 +1,226 @@
+body {
+    min-width: 100vw;
+    font-size: 0.8rem;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: #262a2d;
+}
+select, input, button, li.pagination, a {
+    border-radius: 0!important;
+}
+.container-fluid{
+    max-width: 80%;
+}
+.pane {
+    height: 150px!important;
+}
+.dt-searchPanes {
+    height: 190px!important;
+    font-size: 1rem;
+}
+.common{
+    color:#ffffff;
+}
+.uncommon{
+    color:#1eff00;
+}
+.rare{
+    color:#0070dd;
+}
+.epic{
+    color:#a335ee;
+}
+.lego{
+    color:#ff8000;
+}
+
+#button {
+  display: inline-block;
+  background-color: #F44336;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  #button {
+    margin: 30px;
+  }
+}
+.content h1 {
+  margin-bottom: -10px;
+  color: #F44336;
+  line-height: 1.5;
+}
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
+div.dt-searchPanes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    align-content:flex-start;
+    align-items:stretch;
+    height:280px;
+}
+div.dt-searchPanes div.pane{
+    position:relative;
+    flex:1;
+    margin:1em 0.5%;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+div.dt-searchPanes div.pane button[type=button]{
+    display:none
+}
+div.dt-searchPanes div.pane.filtering button[type=button]{
+    display:block;
+    position:absolute;
+    right:6px;
+    top:6px;
+    border:1px solid #999;
+    background:rgba(0,0,0,0.1);
+    border-radius:16px;
+    cursor:pointer;
+}
+div.dt-searchPanes div.pane.filtering button[type=button]:hover{
+    background:rgba(0,0,0,0.2);
+}
+div.dt-searchPanes div.pane div.title{
+    box-sizing:border-box;
+    height:36px;
+    padding:9px 0.35em;
+    font-size:0.7em;
+    background-color:#e8e9eb;
+    border-bottom:1px solid rgba(0,0,0,0.15);
+}
+div.dt-searchPanes div.pane div.scroller{
+    position:absolute;
+    top:36px;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:auto;
+}
+div.dt-searchPanes div.pane div.scroller ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+div.dt-searchPanes div.pane div.scroller ul li{
+    position:relative;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+div.dt-searchPanes div.pane div.scroller ul li:nth-child(odd){
+    background:rgba(0,0,0,0.03);
+}
+div.dt-searchPanes div.pane div.scroller ul li.selected{
+    background:#F44336;
+    color:white;
+}
+div.dt-searchPanes div.pane div.scroller ul li span.label{
+    display:inline-block;
+    box-sizing:border-box;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:85%;
+    vertical-align:middle;
+    padding:0.2em 0.3em;
+    font-size: 0.8em;
+}
+div.dt-searchPanes div.pane div.scroller ul li span.count{
+    display:inline-block;
+    width:14%;
+    margin-right:1%;
+    font-size:0.7em;
+    text-align:center;
+    background-color:rgba(50,118,177,0.5);
+    border-radius:3px;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #F44336;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #F44336 !Important;
+    border: solid 1px #F44336 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #F44336 !Important;
+    border: solid 1px #F44336;
+}
+
+option:hover
+{
+    background-color: #F44336 !Important;
+}
