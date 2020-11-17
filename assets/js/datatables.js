@@ -2,9 +2,9 @@ $(document).ready(function() {
     $('#example').DataTable( {
         searchPane: false,
         responsive: true,
-        pageLength: 170,
+        pageLength: 25,
 
-        "ajax": "./assets/db.txt",
+        "ajax": "./assets/db/db.txt",
 
         "columns": [
             { "data": "name" },
