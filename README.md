@@ -3,6 +3,9 @@
 A Website for displaying Random Enchants from [Project Ascension](https://ascension.gg/)
 Created by Samuel J. Segawa.
 
+![Alt text](/re/assets/img/Screenshots/desktop.png?raw=true "Optional Title")
+![Alt text](/re/assets/img/Screenshots/desktop_popup.png?raw=true "Optional Title")
+
 ## Overview
 This site is build with pure PHP, js, jquery and CSS.
 The tables are created via [Datatables](https://datatables.net/).
