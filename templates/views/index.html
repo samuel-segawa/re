@@ -1,0 +1,39 @@
+<?php include $_ENV["INCLUDE_PATH"] . "templates/components/head.html";?>
+<?php include $_ENV["INCLUDE_PATH"] . "templates/components/nav.html";?>
+
+<body class="bg-nord-light">
+
+    <div class="container-xl bg-faded">
+        <div class="table-responsive-sm">
+            <table id="view" class="display table table-hover bg-light shadow-lg global-text-color w-100">
+                <thead>
+                    <tr>
+                        <th class="th-sm"><?php echo $_ENV["TH_0"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_1"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_2"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_3"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_4"];?></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="th-sm"><?php echo $_ENV["TH_0"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_1"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_2"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_3"];?></th>
+                        <th class="th-sm"><?php echo $_ENV["TH_4"];?></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <?php include "./templates/components/modal.html";?>
+    <?php include "./templates/components/footer.html";?>
+
+</body>
+
+</html>

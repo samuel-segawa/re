@@ -1,0 +1,11 @@
+{
+    "name": "gridev",
+    "type": "project",
+    "authors": [{
+        "name": "Segawa",
+        "email": "segawa@e-ll.co.jp"
+    }],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    }
+}
