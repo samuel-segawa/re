@@ -15,7 +15,6 @@
  * @license MIT - http://datatables.net/license_mit
  */
 
-
 class SSP {
 	/**
 	 * Create the data output array for the DataTables rows
@@ -252,7 +251,7 @@ class SSP {
 		$data = self::sql_exec( $db, $bindings,
 			"SELECT `".implode("`, `", self::pluck($columns, 'db'))."`
 			 FROM `$table`
-			 $where
+			 WHERE `rarity` = 'Epic'
              $and
 			 $order
 			 $limit"
@@ -262,14 +261,14 @@ class SSP {
 		$resFilterLength = self::sql_exec( $db, $bindings,
 			"SELECT COUNT(`{$primaryKey}`)
 			 FROM   `$table`
-			 $where"
+			 WHERE `rarity` = 'Epic'"
 		);
 		$recordsFiltered = $resFilterLength[0][0];
 
 		// Total data set length
 		$resTotalLength = self::sql_exec( $db,
 			"SELECT COUNT(`{$primaryKey}`)
-			 FROM   `$table`"
+			 FROM   `$table` WHERE 'rarity' = 'Epic'"
 		);
 		$recordsTotal = $resTotalLength[0][0];
 
@@ -317,6 +316,7 @@ class SSP {
 		$localWhereResult = array();
 		$localWhereAll = array();
 		$whereAllSql = '';
+		
 
 		// Build the SQL query string from the request
 		$limit = self::limit( $request, $columns );
@@ -344,7 +344,8 @@ class SSP {
 		$data = self::sql_exec( $db, $bindings,
 			"SELECT `".implode("`, `", self::pluck($columns, 'db'))."`
 			 FROM `$table`
-			 $where
+
+			 WHERE 'rarity' = 'Epic'
 			 $order
 			 $limit"
 		);
@@ -353,7 +354,7 @@ class SSP {
 		$resFilterLength = self::sql_exec( $db, $bindings,
 			"SELECT COUNT(`{$primaryKey}`)
 			 FROM   `$table`
-			 $where"
+			  WHERE 'rarity' = 'Epic'"
 		);
 		$recordsFiltered = $resFilterLength[0][0];
 
