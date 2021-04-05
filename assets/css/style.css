@@ -101,6 +101,7 @@ body {
     left: 0;
     padding: 1rem;
     text-align: center;
+	z-index: 99999991;
 }
 
 .table-icon {}
@@ -206,7 +207,7 @@ table.dataTable {
         opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
-    z-index: 1000;
+    z-index: 99999992;
 }
 
 #button::after {
